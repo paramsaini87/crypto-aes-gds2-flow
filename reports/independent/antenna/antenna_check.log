@@ -1,0 +1,19 @@
+[INFO ODB-0227] LEF file: /pdk/techlef/sky130_fd_sc_hd__nom.tlef, created 14 layers, 25 vias
+[WARNING ODB-0220] WARNING (LEFPARS-2008): NOWIREEXTENSIONATPIN statement is obsolete in version 5.6 or later.
+The NOWIREEXTENSIONATPIN statement will be ignored. See file /pdk/lef/sky130_ef_sc_hd.lef at line 2.
+
+[INFO ODB-0227] LEF file: /pdk/lef/sky130_ef_sc_hd.lef, created 8 library cells
+[WARNING ODB-0220] WARNING (LEFPARS-2008): NOWIREEXTENSIONATPIN statement is obsolete in version 5.6 or later.
+The NOWIREEXTENSIONATPIN statement will be ignored. See file /pdk/lef/sky130_fd_sc_hd.lef at line 2.
+
+[INFO ODB-0227] LEF file: /pdk/lef/sky130_fd_sc_hd.lef, created 437 library cells
+[INFO ODB-0127] Reading DEF file: /work/crypto_aes.def
+[INFO ODB-0128] Design: crypto_aes
+[INFO ODB-0094] 		Created 100000 Insts
+[INFO ODB-0130]     Created 156 pins.
+[INFO ODB-0131]     Created 146986 components and 654371 component-terminals.
+[INFO ODB-0132]     Created 2 special nets and 538552 connections.
+[INFO ODB-0133]     Created 34175 nets and 115815 connections.
+[INFO ODB-0134] Finished DEF file: /work/crypto_aes.def
+[INFO ANT-0002] Found 0 net violations.
+[INFO ANT-0001] Found 0 pin violations.

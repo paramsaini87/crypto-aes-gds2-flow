@@ -1,0 +1,3 @@
+registers: gold 2149, gate 2149, paired 2149, unpaired gold 0, unpaired gate 0, reset-kind mismatches 0
+miter: 2216 inputs, 6489 compare outputs (42 PO, 2149 register D, 2149 register clock, 2149 register reset)
+cuts: miter_gold.blif / miter_gate.blif, 6489 named outputs each

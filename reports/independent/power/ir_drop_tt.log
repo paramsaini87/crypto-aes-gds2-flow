@@ -1,0 +1,59 @@
+[INFO ODB-0227] LEF file: /pdk/libs.ref/sky130_fd_sc_hd/techlef/sky130_fd_sc_hd__nom.tlef, created 14 layers, 25 vias
+[WARNING ODB-0220] WARNING (LEFPARS-2008): NOWIREEXTENSIONATPIN statement is obsolete in version 5.6 or later.
+The NOWIREEXTENSIONATPIN statement will be ignored. See file /pdk/libs.ref/sky130_fd_sc_hd/lef/sky130_ef_sc_hd.lef at line 2.
+
+[INFO ODB-0227] LEF file: /pdk/libs.ref/sky130_fd_sc_hd/lef/sky130_ef_sc_hd.lef, created 8 library cells
+[WARNING ODB-0220] WARNING (LEFPARS-2008): NOWIREEXTENSIONATPIN statement is obsolete in version 5.6 or later.
+The NOWIREEXTENSIONATPIN statement will be ignored. See file /pdk/libs.ref/sky130_fd_sc_hd/lef/sky130_fd_sc_hd.lef at line 2.
+
+[INFO ODB-0227] LEF file: /pdk/libs.ref/sky130_fd_sc_hd/lef/sky130_fd_sc_hd.lef, created 437 library cells
+[INFO ODB-0127] Reading DEF file: /work/crypto_aes.def
+[INFO ODB-0128] Design: crypto_aes
+[INFO ODB-0094] 		Created 100000 Insts
+[INFO ODB-0130]     Created 156 pins.
+[INFO ODB-0131]     Created 146986 components and 654371 component-terminals.
+[INFO ODB-0132]     Created 2 special nets and 538552 connections.
+[INFO ODB-0133]     Created 34175 nets and 115815 connections.
+[INFO ODB-0134] Finished DEF file: /work/crypto_aes.def
+[INFO] Using clock clk…
+[INFO] Setting output delay to: 3
+[INFO] Setting input delay to: 3
+[INFO] Setting load to: 0.033442
+[INFO] Setting clock uncertainty to: 0.25
+[INFO] Setting clock transition to: 0.15
+[INFO] Setting timing derate to: 5%
+Group                   Internal   Switching     Leakage       Total
+                           Power       Power       Power       Power (Watts)
+--------------------------------------------------------------------
+Sequential           6.22934e-03 6.69417e-04 2.49723e-08 6.89878e-03  28.2%
+Combinational        3.78734e-03 6.86301e-03 1.37772e-07 1.06505e-02  43.5%
+Clock                3.73039e-03 3.21448e-03 5.38557e-09 6.94487e-03  28.4%
+Macro                0.00000e+00 0.00000e+00 0.00000e+00 0.00000e+00   0.0%
+Pad                  0.00000e+00 0.00000e+00 0.00000e+00 0.00000e+00   0.0%
+--------------------------------------------------------------------
+Total                1.37472e-02 1.07469e-02 1.68113e-07 2.44942e-02 100.0%
+                           56.1%       43.9%        0.0%
+[INFO PSM-0040] All shapes on net VPWR are connected.
+########## IR report #################
+Net              : VPWR
+Corner           : tt_025C_1v80
+Total power      : 2.45e-02 W
+Supply voltage   : 1.80e+00 V
+Worstcase voltage: 1.80e+00 V
+Average voltage  : 1.80e+00 V
+Average IR drop  : 8.19e-05 V
+Worstcase IR drop: 4.74e-04 V
+Percentage drop  : 0.03 %
+######################################
+[INFO PSM-0040] All shapes on net VGND are connected.
+########## IR report #################
+Net              : VGND
+Corner           : tt_025C_1v80
+Total power      : 2.45e-02 W
+Supply voltage   : 0.00e+00 V
+Worstcase voltage: 4.85e-04 V
+Average voltage  : 8.19e-05 V
+Average IR drop  : 8.19e-05 V
+Worstcase IR drop: 4.85e-04 V
+Percentage drop  : 0.03 %
+######################################
