@@ -1,0 +1,9 @@
+load_sky130
+read_verilog rtl/crypto_aes.v
+set_clock_period 15
+run_all 200 200
+write_netlist crypto_aes_postpnr.v
+write_def crypto_aes.def
+write_gds crypto_aes.gds
+write_image images/04_final_layout.png routing
+exit
